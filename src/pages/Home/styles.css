@@ -16,12 +16,33 @@ body {
 }
 
 .form-buttons {
-  background-color: black;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  width: 25vw;
+  margin: 3vw;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+}
+
+input[type=button] {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 3px 3px;
+  cursor: pointer;
+  
+}
+
+.button-close {
+  background-color: #AA0400;
+  
+}
+
+.button-done {
+  background-color: #04AA6D;
 }
